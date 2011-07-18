@@ -1,9 +1,11 @@
 # VERY simple makefile to build CV.  It could be more elegant and check more
 # dependencies, but it works.
 # M. Marino
+# edited by G. Adam Cox
+#
 LATEX := xelatex
 BIBTEX := bibtex
-ROOTNAME := cv_mgm 
+ROOTNAME := cv_gac
 AUX_FILE := $(addsuffix .aux, $(ROOTNAME))
 TEX_FILE := $(addsuffix .tex, $(ROOTNAME))
 BBL_FILE := $(addsuffix .bbl, $(ROOTNAME))
